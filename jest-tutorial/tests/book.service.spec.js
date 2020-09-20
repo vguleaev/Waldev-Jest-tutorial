@@ -1,9 +1,6 @@
 const bookService = require('../src/book.service');
 const booksProvider = require('../src/books-provider');
 const emailService = require('../src/email.service');
-// jest.mock('../src/email.service', () => {
-//   return jest.fn(() => console.log('mocked sendMissingBookEmail'));
-// });
 
 describe('searchBooks', () => {
   describe('when one book matches search text', () => {
